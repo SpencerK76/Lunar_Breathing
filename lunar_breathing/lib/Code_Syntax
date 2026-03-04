@@ -17,6 +17,4 @@ taskkill /F /IM dart.exe /IM java.exe /IM gradle.exe
 rd /s /q build
 flutter pub get
 flutter run
-
-
 */
