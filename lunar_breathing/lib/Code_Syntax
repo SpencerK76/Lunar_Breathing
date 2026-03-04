@@ -1,0 +1,22 @@
+/*
+git status # look for untracked files and tracks them
+git add . #stages all untracked files
+git commit -m "Added home.dart, scratchCode folder, and flutter_01.png" #commits the changes - git takes a snapshot of these locally
+git push # push the files to git as a backup
+
+
+To run emulator
+flutter emulator --launch Pixel_9
+flutter run -d Pixel_9
+flutter emulator --launch Pixel_9
+
+flutter run error - build file in use, run
+
+flutter clean
+taskkill /F /IM dart.exe /IM java.exe /IM gradle.exe
+rd /s /q build
+flutter pub get
+flutter run
+
+
+*/
